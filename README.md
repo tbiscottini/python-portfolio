@@ -1,2 +1,2 @@
 # python-portfolio
-My professional portfolio of Python scripts for web scraping, automation, and data analysis.
+Questa è una collezione curata dei miei migliori script personali, realizzati per dimostrare le mie competenze pratiche in web scraping, automazione di processi e integrazione di API.
