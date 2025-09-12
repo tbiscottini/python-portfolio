@@ -1,17 +1,30 @@
-# Il Mio Portfolio di Progetti Python
+# Portfolio di Progetti Python di Tommaso Biscottini
 
-Questa è una collezione dei miei migliori script personali, sviluppati per esplorare e applicare concetti di web scraping, automazione e integrazione API.
+Questa è una collezione curata dei miei migliori script personali, realizzati per dimostrare le mie competenze pratiche in web scraping, automazione di processi e integrazione di API.
 
 ---
 
-### 1. Web Scraper Avanzato Per Pagine web Con Scroll Infinito (`playwright_scrape_justwatch_infinite_scroll.py`)
-Sviluppato uno scraper in Python utilizzando la libreria **Playwright** per estrarre in modo automatizzato un vasto catalogo di titoli da un sito con contenuti dinamici e scroll infinito.
-*   **Tecnologie:** Python, Playwright, asyncio.
+### 1. Advanced Web Scraper for Infinite-Scroll Websites
+*File: `playwright_scrape_justwatch_infinite_scroll.py`*
 
-### 2. Analisi Prezzo-Durata del catalogo Gamepass (`gamepass_picker.py`)
-Creato uno script di scraping e analisi che raccoglie dati di giochi (prezzo, durata) da un portale di offerte. Utilizza **Cloudscraper** e il **multithreading** per parallelizzare le richieste. I dati vengono poi puliti e processati con **Pandas**.
-*   **Tecnologie:** Python, Pandas, Cloudscraper, BeautifulSoup, concurrent.futures.
+Uno scraper avanzato che utilizza **Playwright** per estrarre dati da siti web dinamici che caricano contenuti tramite scroll infinito. È ottimizzato per la velocità, bloccando il caricamento di risorse non necessarie (CSS, immagini).
 
-### 3. Generatore AI Di Carte Anki Da PDF (`pdf_to_anki_with_gemini.py`)
-Realizzato uno strumento di automazione che trasforma il contenuto di un file PDF in flashcard per Anki, utilizzando l'**API di Google Gemini** per la sintesi e la generazione del contenuto e **AnkiConnect** per l'inserimento automatico.
-*   **Tecnologie:** Python, Google Gemini API, PyMuPDF, AnkiConnect.
+**Tecnologie:** Python, Playwright, asyncio.
+
+---
+
+### 2. Game Pass Data Analysis Pipeline
+*File: `gamepass_picker.py`*
+
+Uno script che automatizza la raccolta di dati di videogiochi, superando le protezioni anti-bot con **Cloudscraper**. Utilizza il **multithreading** per parallelizzare le richieste e **Pandas** per la pulizia e l'analisi finale dei dati.
+
+**Tecnologie:** Python, Pandas, Cloudscraper, BeautifulSoup, concurrent.futures.
+
+---
+
+### 3. AI-Powered PDF-to-Anki Card Generator
+*File: `pdf_to_anki_with_gemini.py`*
+
+Uno strumento di automazione che legge un file PDF, invia il testo all'**API di Google Gemini** per una sintesi intelligente e la creazione di domande "cloze", e infine aggiunge le flashcard generate automaticamente all'applicazione Anki tramite **AnkiConnect**.
+
+**Tecnologie:** Python, Google Gemini API, PyMuPDF, AnkiConnect.
