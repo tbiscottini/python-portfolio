@@ -1,0 +1,10 @@
+pandas
+requests
+tqdm
+beautifulsoup4
+selenium
+webdriver-manager
+thefuzz
+python-Levenshtein
+lxml
+pulp
