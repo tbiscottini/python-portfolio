@@ -3,6 +3,13 @@
 ## 🎯 The Mission
 In a fragmented real estate market like Tuscany, identifying undervalued "Green" (Class A/B) properties is traditionally a manual, high-error process. This project automates the discovery of **ESG Arbitrage** opportunities.
 
+## 📊 Market Discovery: The "Golden Star"
+The pipeline identifies statistical anomalies by comparing listings to their hyper-local peer groups. 
+
+![Market Anomaly Report](market_intelligence_report.png)
+
+*Figure 1: The engine identified a property in Camaiore priced 45.2% below the median for High-Efficiency homes in that zone.*
+
 ## 🏗️ The Architecture
 1. **Extraction:** A custom-built scraper (`scraper.py`) harvests high-efficiency residential data, bypassing market noise and non-relevant listings (auctions, ruins).
 2. **Standardization:** Features are engineered to cohort properties by City, Sub-zone, and Room Count.
