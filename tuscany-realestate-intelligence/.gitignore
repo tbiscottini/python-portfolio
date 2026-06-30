@@ -1,0 +1,5 @@
+.env
+__pycache__/
+data_master/*.csv
+data_master/*.db
+data_daily/*.csv
