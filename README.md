@@ -13,8 +13,17 @@ Una pipeline di dati completa che estrae, pulisce e analizza oltre 17.000 prodot
 
 ---
 
-### 2. AI-Powered PDF-to-Anki Card Generator
-*File: [`pdf_to_anki_with_gemini.py`](./pdf_to_anki_with_gemini.py)*
+### 2. Tuscany Real Estate Intelligence
+*Progetto completo all'interno della cartella: [`tuscany-realestate-intelligence`](./tuscany-realestate-intelligence)*
+
+Un sistema di analisi del mercato immobiliare toscano che raccoglie dati giornalieri, li aggrega in un dataset storico e genera una heatmap dei margini di profitto potenziali per zona.
+
+**Tecnologie:** Python, Pandas, Matplotlib.
+
+---
+
+### 3. AI-Powered PDF-to-Anki Card Generator
+*Progetto completo all'interno della cartella: [`pdf-to-anki-gemini`](./pdf-to-anki-gemini)*
 
 Uno strumento di automazione che legge un file PDF, invia il testo all'**API di Google Gemini** per una sintesi intelligente e la creazione di domande, e infine aggiunge le flashcard generate automaticamente all'applicazione Anki tramite **AnkiConnect**.
 
@@ -22,8 +31,8 @@ Uno strumento di automazione che legge un file PDF, invia il testo all'**API di 
 
 ---
 
-### 3. Advanced Web Scraper for Dynamic Websites
-*File: [`playwright_scrape_justwatch_infinite_scroll.py`](./playwright_scrape_justwatch_infinite_scroll.py)*
+### 4. Advanced Web Scraper for Dynamic Websites
+*Progetto completo all'interno della cartella: [`justwatch-infinite-scroll-scraper`](./justwatch-infinite-scroll-scraper)*
 
 Uno scraper avanzato che utilizza **Playwright** per estrarre dati da siti web dinamici che caricano contenuti tramite scroll infinito, ottimizzato per la velocità bloccando il caricamento di risorse non necessarie.
 
